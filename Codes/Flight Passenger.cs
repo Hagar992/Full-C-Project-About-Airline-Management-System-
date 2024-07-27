@@ -71,11 +71,6 @@ namespace Project_Airline_Management_System
 
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
             View_Passenger view_Passenger = new View_Passenger();

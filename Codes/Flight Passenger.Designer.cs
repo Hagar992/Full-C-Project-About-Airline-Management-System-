@@ -167,7 +167,6 @@
             label6.TabIndex = 31;
             label6.Text = "Passenger Name";
             label6.TextAlign = ContentAlignment.TopCenter;
-            label6.Click += label6_Click;
             // 
             // label7
             // 

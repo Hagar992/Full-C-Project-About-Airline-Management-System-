@@ -24,13 +24,13 @@ namespace Project_Airline_Management_System
 
         private void InitializeComboBoxes()
         {
-            // إعداد ComboBox للإكمال التلقائي
+           
             From.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             From.AutoCompleteSource = AutoCompleteSource.ListItems;
             To.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             To.AutoCompleteSource = AutoCompleteSource.ListItems;
 
-            // إضافة عناصر إلى ComboBox
+            
             string[] countries = new string[]
              {
                 "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina",
@@ -61,7 +61,7 @@ namespace Project_Airline_Management_System
                 "Vatican City (Holy See)", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"
              };
 
-            // إضافة عناصر إلى ComboBox
+            
             From.Items.AddRange(countries);
             To.Items.AddRange(countries);
         }

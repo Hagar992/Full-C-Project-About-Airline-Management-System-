@@ -16,7 +16,7 @@ namespace Project_Airline_Management_System
             {
                 progressBar1.Value = 0;
                 timer1.Stop();
-                login login = new login();  
+                login login = new login();
                 login.Show();
                 this.Hide();
             }
